@@ -1,0 +1,5 @@
+First line of text.
+Second line of text.
+Third line of text.
+This is a test file to check the program's functionality.
+The file should be read correctly line by line.
