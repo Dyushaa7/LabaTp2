@@ -22,7 +22,7 @@ int main() {
                 for (int i = 0; i < studentCount; i++) {
                     newStudents[i] = students[i]; // Kopiruem suschestvuyushchikh studentov
                 }
-                delete[] students; // Osvobozhdaem pamyat
+                delete[] students; // Osvobozhdaem pamat
 
                 std::cin >> newStudents[studentCount]; // Vvod novogo studenta
                 students = newStudents;

@@ -18,4 +18,4 @@ public:
     char* readFile();
 };
 
-#endif // FILEHANDLER_H
+#endif // FIiLEHANDLER_H

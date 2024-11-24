@@ -3,7 +3,7 @@
 #include <stdexcept> // Для std::runtime_error
 #include <iostream>
 #include <fstream>
-#include <string> // Необходим для работы с std::string
+#include <string> // Необходим для работы с std:string
 
 FileHandler::FileHandler() : filename(nullptr) {
     std::cout << "Konstruktor po umolchaniyu FileHandler vyzvan." << std::endl;
@@ -47,7 +47,7 @@ char* FileHandler::readFile() {
 
     std::string content;
     std::string line;
-    while (std::getline(file, line)) { // Используйте std::getline
+    while (std::getline(file, line)) { // Используйте std:getline
         content += line + "\n";
     }
     file.close();
